@@ -1,1 +1,135 @@
 
+ <title>Navbar</title>
+{margin:0; padding:0;}
+body {
+    background-color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+     color:#000;
+    }
+        }
+    #heading{
+    float: left;
+    width: 340px;
+    }
+    #heading a {
+    line-height: 65px;
+    text-decoration: none;
+    padding-left: 60px;
+    color:#FFF;
+    font-family: aardvark cafe;
+    font-size: 40px;
+    }
+
+    nav {
+     margin:auto;
+     width: 100%;
+    } 
+
+    nav ul ul {
+     display: none;
+    }
+
+    nav ul li:hover > ul{
+    display: block;
+    width: 150px;
+    }
+
+    nav ul {
+     background: #333;
+     padding: 0 20px;
+     list-style: none;
+     position: relative;
+     display: inline-table;
+     width: 100%;
+    }
+
+    nav ul:after {
+     content: ""; 
+     clear:both; 
+     display: block;
+    }
+
+    nav ul li{
+     float:right;
+     padding-right: 20px;
+    }
+
+    nav ul li:hover{
+     background:#666;
+    }
+
+    nav ul li:hover a{
+     color:#fff;
+    }
+
+    nav ul li a{
+     display: block;
+     padding: 25px;
+     color: #fff;
+     text-decoration: none;
+    }
+
+    nav ul ul{
+     background: #333;
+     border-radius: 0px;
+     padding: 0;
+     position: absolute;
+     top:100%;
+    }
+
+    nav ul ul li{
+     float:none;
+     border-top: 1px soild #333;
+     border-bottom: 1px solid #333;
+     position: relative;
+    }
+
+    nav ul ul li a{
+     padding: 15px 40px;
+     color: #fff;
+    }
+
+    nav ul ul li a:hover{
+     background-color: #666;
+    }
+
+    nav ul ul ul{
+     position: absolute;
+     left: 100%;
+     top: 0;
+    }
+    h1{
+        font-weight: normal;
+        padding-top: 50px;
+        padding-left: 90px;
+        padding-right: 850px;
+    }
+    p{
+        font-weight: normal;
+        color: grey;
+        padding-top: 30px;
+        padding-left: 90px;
+        padding-right: 800px;
+    }
+    #footer{
+    height:50px;
+    line-height:20px;
+    background:#333;
+    color:#fff;
+    position:relative;
+    bottom:0px;
+    width:100%;
+    padding-bottom: 30px;
+    clear: both;
+    }
+    h4{
+        text-align: center;
+        padding-left: 800px;
+        padding-right: 50px;
+        margin-top: 0px;    }
+    img{
+        float: right;
+        display: block;
+        width: 550px;
+        height: 350px;
+    }
