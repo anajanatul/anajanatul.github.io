@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" media="all" href="style.css">
+<nav>
+    <ul>
+        <div id="heading">
+            <a href="#">Kakao Jember</a>
+        </div>
+        <li><a href="#" onClick="return confirm ('Yakin?')">Logout</a></li>
+        <li><a href="#">Kegiatan</a>
+            <ul>
+                <li><a href="#">Penanaman Kakao</a></li>
+                <li><a href="#">Pengolahan Kakao</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Fasilitas</a></li>
+        <li><a href="#">Tentang</a></li>
+        <li><a href="#">Beranda </a></li>
+        </li>
+    </ul>
+</nav>
+</head>
+<body>
+     <img alt="gambar puslit" src="puslit.png" /">
+<h1>SEJARAH PUSLIT KAKAO JEMBER</h1>
+
+<p>Pusat Penelitian Kakao Jember dulunya merupakan perkebunan nusantara yang dipakai untuk melakukan penelitian tanaman kopi dan kakao. Kini pusat penelitian ini dijadikan sebagai taman bermain, kebun binatang, tepet pelatihan pengolahan kakao dll......</p> 
+   
+    <div id="footer">
+        <h4>Kontak kami<br>
+            puslitkakao@gmail.com<br>
+            (0331)757130<br>
+            Jl. PB Sudirman No.90, Nogosari, Rambipuji, Jember
+        </h4>
+    </div>
+
+</body>
+</html>
