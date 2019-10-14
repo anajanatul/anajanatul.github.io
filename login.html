@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>register</title>
+    <title>MASUK</title>
     <style type="text/css">
         body {
             background-image:linear-gradient(rgba(255,0,0,0.45),rgba(0,44,176,0.45),rgba(0,144,0,0.45),
@@ -19,7 +19,7 @@
         }
 
         .judul {
-            text-align: center;
+            text-align: left;
             font-family: lato;
             font-weight: bold;
             padding-top: 50px;
@@ -54,9 +54,9 @@
               color: #fff;
               font-weight: 100;
               }
-        button {
+        input[type="submit"] {
               font-size: .9em;
-              color: white;
+              color: #fff;
               background: #76b852;
               outline: none;
               border: 1px solid #76b852;
@@ -75,37 +75,31 @@
             padding: 0.80px;
             font-size: .85em;
   }
+        p{
+          padding-bottom: 10%;
+          color: white;
+        }
 
     </style>
 </head>
 <body>
   <div class="container">
-    <h1 class="judul">Daftar</h1>
+    <h1 class="judul">MASUK</h1>
     <form action="">
       <table class="table">
         <tr>
-            <input class="text" type="text" name="Nama" placeholder="Nama" required=""><br>
-            <input class="text" type="text" name="Alamat" placeholder="Alamat" required=""><br>
-            <input class="text" type="number" name="No Hp" placeholder="No Hp" required=""><br>
-            <input class="text email" type="email" name="email" placeholder="E-mail" required=""><br>
-            <input class="text" type="password" name="password" placeholder="Password" required=""><br>
-            <input class="text" type="password" name="password" placeholder="Confirm Password" required="">
+            <input class="text email" type="email" name="email" placeholder="E-mail"><br>
+            <input class="text" type="password" name="password" placeholder="Password">
         
         </tr>
         <tr>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
-              <div>
-      <script type="text/javascript">
-      function simsalabim() {
-      alert("data anda tersimpan");
-      }
-      </script>
-      <button><a href="#" onclick="simsalabim()">Daftar</a></button>
-    </div>
+            <td><input type="submit" name="submit" href="beranda.html" value="MASUK"/>
         </tr>
       </table>
     </form>
+        <p>Belum memiliki akun? <a href="register.html"> Daftar</a></p>
   </div>
 </body>
 </html> 
