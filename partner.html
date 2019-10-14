@@ -2,10 +2,42 @@
 <html>
 <head>
 	<title>NAWA FARM</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<nav>	
+    <ul>
+        <li><a href="#">nama</a>
+             <ul>
+                 <li><a href="#" onClick="return confirm ('Yakin?')">Logout</a></li>
+                 <li><a href="profil.html">profil</a></li>
+             </ul>
+        <li><a href="aboutus.html">Tentang</a></li>
+        <li><a href="partner.htnl">Mitra</a></li>
+        <li><a href="activity.html">Kegiatan</a>
+            <ul>
+                <li><a href="penanamankakao.html">Penanaman Kakao</a></li>
+                <li><a href="pengolahankakao.html">Pengolahan Kakao</a></li>
+            </ul>
+        </li>
+        <li><a href="healthy.html">Kesehatan Tanaman</a>
+            <ul>
+                <li><a href="healthy.html">Cara penanaman kopi</a></li>
+                <li><a href="tanamkakao.html">Pengolahan Kakao</a></li>
+                <li><a href="tanamtembakau.html">Pengolahan Tembakau</a></li>
+                <li><a href="tanamedamame.html">Pengolahan Edamame</a></li>
+            </ul>
+        <li><a href="#">Sejarah</a></li>
+        <li><a href="#">Beranda</a></li>
+        <li<form>
+  		<input class="search" type="text" placeholder="Cari..." required>	
+ 		<input class="button" type="button" value="Cari">		
+		</form>></li>
+        <li><a href="#">NAWA FARM</a></li>
+    </ul>
+	</nav>
 </head>
 <body>
 	<H1>MITRA KERJA NAWA FARM</H1>
-	<img src="primadona.png"/>
+	<img src="primadonalogo.png"/>
 	<p>Primadona adalah salah satu toko yang menjual oleh-oleh khas jember. Primadona menjual berbagai macam olahan khas jember
 diantaranya edamame beku, proll tape, kopi sidomulyo, suwar-suwir dan masih banyak lagi. Tidak hanya oleh oleh khas Jember,
 Primadona juga menyediakan juga menyediakan oleh-oleh khas dari wilayah sekitar jember. Misalnya Bondowoso dengan tape
@@ -25,5 +57,25 @@ produk tersebut. Kopi Lanang Sidomulya merupakan salah satu mitra kerja Nawa Far
 dalam jumlah besar. Bahkan konsumen dari Edaame Jember banyak juga yang dari luar negeri. Khususnya edamame telah
 diekspor ke Jepang kurang lebih sudah 20 th. Selain kualitas yang bagus, salah satu daya tarik cemilan ini karena edamame
 merupakan cemilan non kolestreol</p>
+    <form id="formKomentar" method="POST" action="healthy.html">
+    <div>
+     <textarea name="komentar" rows="10" placeholder="Komentar"></textarea>
+    </div>
+ 
+    <div>
+      <script type="text/javascript">
+      function simsalabim() {
+      alert("komentar anda terkirim");
+      }
+      </script>
+      <button><a href="penanamankakao.html" onclick="simsalabim()">Tambahkan komentar</a></button>
+    </div>
+  </form>
+  <div id="footer">
+    <h5>nawafarm@gmail.com <br>
+    @nawafarm<br>
+    (0331)757130<br>
+    Cluster Tidar Asri, Blok D7, Sumbersari, Jember</h5>
+  </div>
 </body>
 </html>
