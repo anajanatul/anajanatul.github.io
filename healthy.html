@@ -8,17 +8,23 @@
         <li><a href="#">nama</a>
              <ul>
                  <li><a href="#" onClick="return confirm ('Yakin?')">Logout</a></li>
-                 <li><a href="#">profil</a></li>
+                 <li><a href="profil.html">profil</a></li>
              </ul>
-        <li><a href="#">Tentang</a></li>
-        <li><a href="#">Mitra</a></li>
-        <li><a href="#">Kegiatan</a>
+        <li><a href="aboutus.html">Tentang</a></li>
+        <li><a href="partner.html">Mitra</a></li>
+        <li><a href="activity.html">Kegiatan</a>
             <ul>
-                <li><a href="#">Penanaman Kakao</a></li>
-                <li><a href="#">Pengolahan Kakao</a></li>
+                <li><a href="penanamankakao.html">Penanaman Kakao</a></li>
+                <li><a href="pengolahankakao.html">Pengolahan Kakao</a></li>
             </ul>
         </li>
-        <li><a href="#">Kesehatan Tanaman</a></li>
+        <li><a href="healthy.html">Kesehatan Tanaman</a>
+            <ul>
+                <li><a href="healthy.html">Cara penanaman kopi</a></li>
+                <li><a href="tanamkakao.html">Pengolahan Kakao</a></li>
+                <li><a href="tanamtembakau.html">Pengolahan Tembakau</a></li>
+                <li><a href="tanamedamame.html">Pengolahan Edamame</a></li>
+            </ul>
         <li><a href="#">Sejarah</a></li>
         <li><a href="#">Beranda</a></li>
         <li<form>
@@ -110,10 +116,28 @@ Kupas  melingkar pangkal batang tersebut</li>
       <li>Tambahkan kapur duomit (kalsium) pada pupuk dasar dan pupuk susulan agr batang tanaman semakin kuat dan bunga tidak mudah rontok. Selain itu biji kopi juga akan lebih padat sehingga bijinya lebih berat.</li>
     </ol>
   </p>
-	<H2>CARA PENANAMAN KAKAO</H2>
-  <p>PERSIAPAN LAHAN<br>
-  Budidaya Perkebunan – Tahap awal dalam budidaya kakao adalah mempersiapkan lahan yang akan ditanami kakao. Persiapan lahan atau arela dimulai dari tahap survai/pengukuran sampai tahap pengendalian ilalang. Pada tahap ini, pelaksanaan pekerjaan meliputi pemetaan topografi, penyebaran jenis tanah, serta penetapan batas areal yang akan ditanami. Hasi survai akan sangat penting artinya untuk tahapan pekerjaan lain , bahkan dalam hal penanaman dan pemeliharaan kakao. Tahap selanjutnya dari  persiapan lahan adalah tebas/babat.<br>
-  Pelaksanaan pekerjaan pada tahap ini adalah dengan membersihkan semak belukar dan kayu-kayu kecil sedapat mungkin ditebas rata dengan permukaan tanah, setelah itu dilanjutkan dengan tahap tebang. Tahap berikut ini dilaksanakan selama 3-4 bulan, dan merupakan tahap yang paling lama dari semua tahap persiapan lahan. Bila semua pohon telah tumbang lalu biarkan selama 1-1,5 bulan agar daun kayu mengering.<br>
+    <form id="formKomentar" method="POST" action="healthy.html">
+    <div>
+     <textarea name="komentar" rows="10" placeholder="Komentar"></textarea>
+    </div>
+ 
+    <div>
+      <script type="text/javascript">
+      function simsalabim() {
+      alert("komentar anda terkirim");
+      }
+      </script>
+      <button><a href="penanamankakao.html" onclick="simsalabim()">Tambahkan komentar</a></button>
+    </div>
+  </form>
+	<div id="footer">
+		<h5>nawafarm@gmail.com <br>
+		@nawafarm<br>
+        (0331)757130<br>
+        Cluster Tidar Asri, Blok D7, Sumbersari, Jember</h5>
+	</div>
+</body>
+</html>apat mungkin ditebas rata dengan permukaan tanah, setelah itu dilanjutkan dengan tahap tebang. Tahap berikut ini dilaksanakan selama 3-4 bulan, dan merupakan tahap yang paling lama dari semua tahap persiapan lahan. Bila semua pohon telah tumbang lalu biarkan selama 1-1,5 bulan agar daun kayu mengering.<br>
   Areal yang telah bebas dari semak belukar, kayu-kayu kecil, dan pohon besar, apalagi bila baru dibakar, biasanya cepat sekali menumbuhkan ilalang. Seperti diketahui, ilalang merupakan gulma utama dari areal pertanian. Karena itu, pengendaliannya harus dilaksanakan sesegera mungkin, sehingga sedapat mungkin areal telah bebas dari ilalang saat penanaman pohon pelindung.<br><br>
   PENANAMAN POHON PELINGDUNG<br>
   Setelah tahap persiapan dan pembersihan lahan selesai, pekerjaan selanjutnya adalah penanaman pohon pelindung. Pada areal penanaman kakao ada dua jenis pohon pelindung, yaitu: Pohon pelindung sementara dan Pohon pelindung tetap. Pohon pelidung sementara berfungsi bagi tanaman yang telah mulai menghasilkan. Untuk menetapkan pohon pelindung yang hendak ditanam maka hal-hal yang berkaitan dengan morfologi daun, letak kedududkan daun, ukuran tipe daun, tipe percabangan maupun ketahan akan hama penyakit, serta sifatnya didalam penyerapan air dan hara patut diperhatikan. Bila memungkinkan, pohon pelindung sebaiknya juga dimanfaatkan segi ekonomisnya seghingga areal penanaman kakao dan pohon pelindungnya mempunyai nilai tambah.<br>
@@ -136,126 +160,4 @@ Kupas  melingkar pangkal batang tersebut</li>
     <li>Pola tanam kakao berpagar ganda, pohon pelindung segi tiga</li>
   </ol>
   <p>PENANAMAN TANAMAN PENUTUP TANAH<br>
-  Tanaman penutup tanah pada areal perkebunan kakao pada umumnya adalah tanaman jenis kacang-kacangan, antara lain Centrosema pubescens, Colopogonium mucunoides, Puerarai javanica atau Pologonium caeruleum. Waktu penanaman benih tanaman penutup tanah adalah setelah penentuan jarak tanam atau setelah pembersihan lahan. Tanaman penutup tanah berfungsi untuk menambah kesuburan tanah, mempertahankan lapisan atas tanah serta mencegah pertumbuhan gulma pengganggu. Kacang-kacangan ditanam 3 atau 2 baris diantara barisan tanaman kakao.<br><br>
-  PEMBUATAN LUBANG TANAMAN KAKAO<br>
-  Lubang tanam dibuat tepat pada titik jarak tanam yang telah dibuat sebelumnya dengan ukuran 40 x 40 x 40 cm, 50 x 50 x 50 cm atau 60 x 60 x 60 cm. Ukuran lubang tanam disesuaikan dengan ukuran polybag bibit. Lubang tanam dibuat 2 – 3 minggu sebelum penanaman bibit. Kemudian setiap lubang tanam ditaburi dengan kapur dolomit dengan dosis disesuikan dengan kebutuhan. Biarkan selama beberapa hari atau setelah tersiram air hujan.<br><br>
-  PEMBERIAN PUPUK DASAR TANAMAN KAKAO<br>
-  Beberapa hari setelah penaburan kapur dolomit, lubang tanam diberikan pupuk dasar berupa pupuk kandang atau kompos sebanyak 2 – 3 kg per lubang. Sebaiknya pupuk kandang atau kompos yang digunakan adalah pupuk yang telah matang. Sebelum dimasukkan ke lubang tanam pupuk kandang dicampur dengan tanah dengan perbandingan 1 : 1 dan ditambahkan pupuk TSP atau SP36 sebanyak 5 – 10 gram per lubang tanam. Kemudian lubang tanam ditutup menggunakan serasah / dedaunan kering dan biarkan selama 2 minggu.<br><br>
-  CARA PENANAMAN BIBIT KAKAO<br>
-  Jika semua langkah-langkah diatas sudah dilakukan dan keadaan pohon pelindung tetap telah memenuhi syarat sebagai naungan, maka langkah selanjutnya adalah melakukan penanaman. Bibit tanaman kakao sudah bisa ditanam kelahan pada umur 4 atau 6 bulan.<br>
-  Penanamannya dilakukan dengan memasukkan polybag ke dalam lubang tanam, kemudian plastik polybag disayat menggunakan pisau dan dilepaskan dari media bibit. Cara ini dilakukan untuk mencegah bibit kakao stres karena rusaknya media semai. Setelah itu lubang ditutup menggunakan tanah dan dipadatkan. Tanah disekitar batang dibuat lebih tinggi agar air hujan tidak menggenang dan untuk mencegah pembusukan akar bibit kakao.<br>
-  Bibit tanaman kakao yang baru dipindah tanam hendaknya diberi naungan sementara dengan menancapkan daun kelapa, daun pinang atau daun kelapa sawit untuk melindungi bibit dari panasnya matahari. Pelindung sementara ditancapkan pada sisi timur dan sisi barat bibit. Hal ini dilakukan untuk mencegah kematian bibit / stres bibit sebab bibit yang baru ditanam sangat peka terhadap sinar matahari.<br><br>
-  PERAWATAN DAN PEMELIHARAN TANAMAN KAKAO<br>
-  Setelah proses penanaman selesai, pekerjaan selanjutnya adalah merawat dan memelihara agar tanaman tumbuh dengan baik dan sesuai harapan. Beberapa kegiatan dalam perawatan dan pemeliharaan tanaman kakao antara lain sebagai berikut ;<br></p>
-  <ol>
-    <li>penyulaman</li>
-    <li>penyiraman</li>
-    <li>penyaingan</li>
-  </ol>
- <p> PEMUPUKAN TANAMAN KAKAO<br>
-  Untuk menjaga ketersediaan nutrisi atau unsur hara serta menunjang pertumbuhan tanaman kakao maka perlu dilakukan pemupukan susulan. Pemupukan dilakukan secara teratur dengan interval tertentu. Jenis pupuk yang digunakan bisa berupa pupuk kandang, kompos atau pupuk anorganik seperti pupuk urea, ZA, KCL, TSP / SP36 atau pupuk majemuk misalnya pupuk NPK. Pemupukan bisa dilakukan dengan cara menaburkan disekeliling batang tanaman dengan jarak dan dosis disesuaikan dengan umur dan lebar tajuk tanaman. Gunakan jenis pupuk sesui kebutuhan dan tingkat/fase pertumbuhan tanaman kakao.<br><br>
-  PEMANGKASAN POHON PELINDUNG<br>
-  Selama masa tanaman belum menghasilkan pemeliharaan ditunjukkan kepada pembentukan cabang yang seimbang dan pertumbuhan vegetatif yang baik. Disamping itu, pemangkasan pohon pelindung tetap juga dilaksanakan agar percabangan dan dedaunnya tumbuh tinggi dan baik. Sedangkan pohon pelindung sementara dipangkas dan akhirnya dimusnahkan sejalan dengan pertumbuhan kakao. Pohon pelindung sementara yang dibiarkan akan membatasi pertumbuhan kakao, karena menghalangi sinar matahari serta menimbulkan persaingan denagn tanaman utama dalam mendapatkan air dan hara.<br><br>
-  PEMANGKASAN TANAMAN KAKAO<br>
-  Pemangkasan pada tanaman kakao merupakan salah satu usaha yang dapat dilakukan untuk meningkatkan produksi dan mempertahankan umur ekonomis tanaman. Pada tanaman kakao terdapat 3 jenis pemangkasan, yaitu pemangkasan bentuk, pe,angkasan produksi dan pemangkasan pemeliharaan. Fungsi dan tujuan pemangkasan pada kakao adalah sebagai berikut ;<br></p>
-  <ol>
-    <li>Agar pertumbuhan tajuk kokoh dan seimbang</li>
-    <li>Mengurangi kelembaban untuk meminimalkan serangan hama dan penyakit</li>
-    <li>Memudahkan pemeliharaan dan pemanenan hasil</li>
-    <li>Meningkatkan produksi kakao</li>
-  </ol> <br>
-	<H2>CARA PENANAMAN TEMBAKAU</H2>
-  <p>PEMUPUKAN<br>
-  Langkah awal ini dilakukan sesaat sebelum menanam benih dan sesudah benih ditanam.<br><br>
-  PANEN<br>
-  Kira-kira 3 bulan, dimulailah panen pertama pada daun tembakau. Memanen daun tembakau tidaklah mudah, haruslah bertahap dari daun paling bawah hingga daun paling atas, dan itu memakan waktu yang tidak sebentar. Dari memanen daun pertama sampai daun terakhir dibutuhkan waktu antara 4 sampai dengan 4,5 bulan. Karena dalam satu batang pohon, daun tembakau dibagi dalam beberapa grid atau tingkatan. Tiap tingkatan itu menandakan kwalitas daun( petani Temanggung menyebut totol) dan biasanya itu terlihat dari warna dan teraba dari aromanya. Untuk aroma memang hanya orang tertentu saja yang bisa menentukan apakah aromanya cukup atau kurang. Dan semakin keatas, kwalitas daun akan semakin tinggi dan hargapun semakin mahal.<br><br>
-  MERAJANG<br>
-  Sekarang para petani/penggarap tembakau telah dimudahkan dengan mesin pengrajang tembakau yang super cepat. Dibandingkan dulu yang merajang dengan system manual layaknya seorang yang merajang sayur. Kini dalam semalam mesin pengrajang itu bisa menghasilkan berkwintal-kwintal tembakau rajangan<br><br>
-  MENCAMPUR DENGAN GULA PASIR<br>
-  Setelah dirajang, langkah selanjutnya mencampur dengan gula pasir, rata-rata dengan perbandingan satu kwintal tembakau dicampur 10 kg gula pasir. Tujuan mencampur rajangan tembakau dengan gula  pasir adalah untuk membuat lentur rajangan tembakau hingga nanti memudahkan proses penggulungannya.<br><br>
-  NGANJANG<br>
-  Nganjang adalah proses menata rajangan tembakau pada satu tempat yang dinamakan irig untuk kemudian dijemur. Perlu ketelatenan dan juga ketrampilan dalam proses ini. Karena ada cara khusus sebelum akhirnya rajangan tembakau itu tertata rapi di atas irig. Rajangan tembakau harus tetap rapi dan memanjang sehingga setelah kering mudah untuk digulung.<br><br>
-  MENJEMUR<br>
-  Dalam proses penjemuran, selain harus sering dibolak balik, para penggarap haruslah selalu waspada terhadap cuaca, jangan sampai jemuran tembakau ini terkena sedikitpun air(hujan) karena jika kehujanan rajangan tembakau itu akan membusuk, dan tembakau tidak layak jual.<br><br>
-  PENGEMBUNAN<br>
-  Setelah dijemur dengan cukup kekeringannya, rajangan tembakau dalam irig itu ditaat dan ditaruh diudara terbuka  semalaman yang memungkinkan terkena embun pagi. Semakin dingin cuaca maka hasil rajangan tembakau itu akan semakin baik.<br><br>
-  PENGEPAKAN<br>
-  Setelah proses pengembunan dirasa cukup, tibalah waktunya menata rajangan tembakau dan dimasukkan dalam keranjang tembakau.  Cara memasukkanpun tidak sembarang, ada beberapa langkah yang harus dilakukan penggarap, seperti menata terlebih dahulu lembaran-lembaran pelepah batang pisang kering yang nantinya digunakan sebagai penutup keranjang dan sebagainya. Adapun isi dalam satu keranjang bisa mencapai 40 sampai dengan 50 kilogram tembakau. Keranjangnya sendiri mempunyai berat kisaran 6 sampai 7 kilogram.<br><br></p>
-
-	<H2>CARA PENANAMAN EDAMAME</H2>
-  <p>
-    PENGOLAHAN LAHAN<br>
-    Tahap awal dalam menanam kedelai edamame adalah mempersiapkan lahan tanam terlebih dahulu seperti juga pada cara menanam venus fly trap . Persiapan lahan minimal dilakukan 15 hari sebelum tanam. Berikut tahapan dalam menyipakan lahan tanam edamame :<br>
-    <ul>
-      <li>Sepuluh hari sebelum penanaman lahan tanam dibajak halus terlebih dahulu.</li>
-      <li>Setelah itu, kemudian buat bedengan tanah.</li>
-      <li>Ukuran masing-masing bedengan bervariasi dan disesuaikan dengan lahan yang dimiliki.</li>
-      <li>Namun, idealnya ukuran bedengan yang digunakan adalah panjang 20 meter dan lebar 1 meter serta tinggi bedengan 20-25 cm.</li>
-      <li>Buat jarak antar bedengan dengan lebar 30 cm.</li>
-      <li>Tiga hari sebelum penanaman disarankan untuk memberikan pupuk dasar.</li>
-      <li>Pupuk yang diberikan berupa pupuk SP-36 sebanyak 200 Kg/Hektare dan tambahkan juga pupuk pertanian sebanyak 600 Kg/Hektare.</li>
-    </ul></p>
-  <p>PEMILIHAN BENIH<br>
-    Benih merupakan salah satu faktor penting bagi berlangsungnya pertumbuhan tanaman. Benih yang berkualitas baik akan menghasilkan  produksi hasil panen yang melimpah seperti juga pada cara menanam rumput jepang . Karena itu benih kedelai edamame yang akan anda tanam harus memiliki kriteria seperti di bawah ini :<br></p>
-    <ul>
-      <li>Benih berasal dari seller penjual benih yang terpercaya.</li>
-      <li>Penjual harus memiliki reputasi yang baik dalam bidang penjualan benih.</li>
-      <li>Benih berasal dari benih yang bersertifikasi.</li>
-      <li>Daya tumbuh benih mencapai 90-95 %.</li>
-      <li>Daya kecambah benih mencapai 98%.</li>
-      <li>Benih tidak dalam masa kadaluwarsa.</li>
-      <li>Simpan benih di tempat yang sejuk dan tidak terkena paparan cahaya matahari langsung.</li>
-    </ul>
-    <p>
-      PENANAMAN<br>
-      Penanaman dilakukan setelah lahan dan benih siap seperti juga pada cara menanam jahe dengan hidroponik . Adapun langkah-langkah penanaman dapat dilakukan dengan cara sebagai berikut :</p>
-      <ul>
-        <li>Sehari sebelum di tanam, lalukan pengairan terhadap bedengan.</li>
-        <li>Caranya adalah dengan mengalirkan air ke siring atau batas antar bedengan.</li>
-        <li>Biarkan selama semalam dan keesokan harinya maka bedengan akan terlihat lembab dan basah.</li>
-        <li>Setelah itu, buat lubang tanam dengan jarak 12×20 cm (saat musim kemarau) dan 14x20cm (saat penanaman pada musim hujan)</li>
-        <li>Kedalaman lubang tanam  antara 1-1,5 cm</li>
-        <li>Masukkan satu biji benih edamame kedalam satu lubang tanam.</li>
-        <li>Kemudian tutup kembali lubang tanam menggunakan tanah hingga rata dan biji tidak nampak.</li>
-        <li>Dalam satu hektare lahan biasanya benih yang digunakan sebanyak 80-100 kg.</li>
-        <li>Sebaiknya penanaman dilakukan pada pagi hari.</li>
-      </ul>
-    <p>
-      PENYIRAMAN<br>
-      Penyiraman pada tanaman ini dilakukan idealnya setiap 7 hari sekali. Pengairan dilakukan dengan cara mengenangi bedengan menggunakan air sesuai dengan ukuran dan kapasitas lapang. Namun, tentunya anda juga harus memperhatikan kondisi tanaman seperti pada cara menanam sunflower velvet queen . Jika cuaca kering sebaiknya pengairan dilakukan 4-5 hari sekali. Dan saat hujan sebaiknya anda tidak perlu lagi melakukan pengairan pada bedengan.<br><br>
-      PEMUPUKAN<br>
-      Pemupukan susulan dilakukan pada saat tanaman berumur 10 HST (Hari Setelah Tanam). Pemupukan dilakukan dengan memberikam pupuk KCL, Urea dan ZA dengan dosis perbandingan 50:150:50 Kg/Hektare.<br>
-      Sedangkan untuk pemupukan susulan kedua dapat dilakukan dengan memberikan pupuk yang sama dengan rasio perbandingan 100:50:100 kg/Hektare pada saat tanaman berusia 21 HST<br><br>
-      PENUMBUHAN DAN PENYIANGAN<br>
-      Pembumbunan dilakukan untuk menutup kembali akar tanaman kedelai edamame yang muncul kepermukaan tanah. Bersamaan dengan itu anda juga bisa melakukan penyiangan seperti pada cara menanam manggis dari biji . Penyiangan ini berfungsi untuk menyingkirkan gulma tanaman yang tumbuj disekitar tanaman. Serta sekaligus untuk mengoptimalkam penyerapan hara pada tanaman kedelai edamame.<br><br>
-      PENGENDALIAN HAMA DAN PENYAKIT<br>
-      Pengendalian HPT dilakukan agar produksi panen tidak terganggu akibat dari serangan HPT yang sering membuat produksi panen berkurang dan menurun seperti pada cara menanam mangga arumanis . Bahkan pada skala yang mengkhawatirkan serangan HPT akan dapat menyebabkan kegagalan panen pada tanaman edamame. Karenanya untuk mendapatkan hasil panen optimal, pengendalian dapat dilakukam dengan cara menyemprotkan Reagent 50C dengan dosis 1 g/Liter dan Ingrofol 50WP dengan dosis anjuran 1,5 g/Hektare.<br><br>
-      PANEN KEDELAI EDAMAME<br>
-      Panen kedelai edamame sendiri dapat dilakukan dalam 2 tahap. Yakni pada umur 65 HST untuk mendapatkan produksi edamame konsumsi simak juga cara menanam apel malang . Serta 90-100 HST untuk memperoleh produksi benih. Kriteria panen juga dapat di lihat dari hal berikut :</p>
-      <ul>
-        <li>Untuk kedelai konsumsi sebaiknya perhatikan warna dan kualitas polong.</li>
-        <li>Standar polong yang siap panen adalah yang memiliki 3-4 biji buah perpolong.</li>
-        <li>Ideal bobot perpolong adalah 2,5-3 gram.</li>
-        <li>Dan jumlah polong dalam setengah kilogram buah konsumsi ideal adalah 150-175 polong.</li>
-        <li>Panen tidak berlangsung berbarengan, dan panen dapat dilakukan setiap dua hari sekali.</li>
-        <li>Edamame konsumsi lebih tinggi permintaannya dipasaran ketimbang edamame bibit.</li>
-        <li>Sehingga sebaiknya lakukan pemanenan pada saat tanaman edamame siap dipanen sebagai tanaman konsumsi.</li>
-      </ul>
-      <p>
-        PENANGANAN PASCA PANEN<br>
-      Untuk menjaga kesegaran hasil panen, maka sebaiknya letakkan hasil panen pada lokasi yang teduh seperti juga pada cara budidaya nanas madu . Kemudian cuci bersih jika ada polong tanaman yang terkena percikan tanah. Kemudian lakukan penyortiran dengan memperhatikan kualitas, ukuran dan grade berikut :      </p>
-      <ul>
-        <li>Grade A : Kuakitas super dengan ciri polong berwarna hijau tua, polong berisi penuh 3 biji dan kulit polong halus.</li>
-        <li>Grade B : Kualitas premium dengan ciri polong hanya berisi 2 biji dan polong berwarna hijau halus.</li>
-        <li>Grade C : Kualitas Deluxe dengan ciri polong kurang bermas dan kurang segar.</li>
-        <li>Grade D : Kualitas Mukimamen, biasanya tidak untuk dikonsumsi segar namun hanya untuk di olah.</li>
-      </ul>
-
-	<div id="footer">
-		<h5>nawafarm@gmail.com <br>
-		@nawafarm<br>
-        (0331)757130<br>
-        Cluster Tidar Asri, Blok D7, Sumbersari, Jember</h5>
-	</div>
-</body>
-</html>
+  Tanaman penutup tanah pada areal perkebunan kakao pada umumnya adalah tanaman jenis kacang-kacangan, antara lain Centrosema pubescens, Colopogonium mucunoides, Puerarai javanica atau Pologonium caeruleum. Waktu penanaman benih tanaman penutup tanah adalah setelah 
