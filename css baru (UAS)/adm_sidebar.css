@@ -1,0 +1,112 @@
+.sidebar{
+	height: 100%;
+	width: 230px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	overflow-x: hidden;
+	background-color: #1a1a1a;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+.content-right{
+	margin-left: 230px;
+	transition: margin-left .5s;
+}
+
+.side-menu a, .btn_side_dropdown, #close_side a{
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #818181;
+	display: block;
+	border: none;
+	background: no-repeat;
+	width: 100%;
+	text-align: left;
+	cursor: pointer;
+	outline: none; 
+}
+
+.side-menu a:hover, .btn_side_dropdown:hover, #close_side a:hover{
+	color: white;
+
+}
+
+.btn_side_dropdown .fa-caret-down{
+	float: right;
+	padding-right: 35px;
+}
+
+a.side_active {
+	color: white; 
+	/*background-color: #FFD034;*/
+	background-color: #0088cc;
+}
+
+.isi_side_dropdown{
+	display: none;
+	background-color: #262626;
+	margin-left: 5px;
+	margin-bottom: 15px;
+}
+
+#close_side{
+	position: absolute;
+	top: 0;
+	right: 10px;
+	margin-left: 50px;
+}
+
+#close_side a {
+	font-size: 24px;
+}
+
+#logo_web{
+	width: 40%;
+	height: auto;
+	padding: 5px;
+	margin: auto;
+}
+
+#logo_web img{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+#username{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+#open_sideMenu{
+	position: absolute;
+	left: 0;
+	width: 10%;
+	padding: 0;
+}
+
+#open_sideMenu button{
+	padding: 12px 18px;
+	background-color: black;
+}
+
+#open_sideMenu button i{
+	font-size: 22px;
+}
+
+@media only screen and (max-width: 768px){
+	.sidebar {
+		width: 0;
+	}
+
+	.content-right{
+		margin-left: 0;
+	}
+} 
