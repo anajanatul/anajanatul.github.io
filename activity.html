@@ -1,54 +1,97 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>NAWA FARM</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<nav>	
+  <title>NAWA FARM</title>
+   <style type="text/css">
+   #footer1{
+    height:auto;
+    line-height:30px;
+    background:#333;
+    color:#fff;
+    bottom:-100%;
+    width:100%;
+    position: absolute;
+}
+#row3{
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  padding-top: 2%;
+  top:50%;
+  bottom: -100%;
+
+}
+.image1{
+  width: 80%;
+  float: left;
+  object-fit: cover;
+  height: 40%;
+  object-position: : 100% 4%;
+  padding-left: 10%;
+}
+p{
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 30%;
+}
+
+
+
+        }
+    </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <nav>   
     <ul>
-        <li><a href="#">nama</a>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#">Saya</a>
              <ul>
                  <li><a href="login.html" onClick="return confirm ('Yakin?')">Logout</a></li>
                  <li><a href="profil.html">profil</a></li>
              </ul>
         <li><a href="aboutus.html">Tentang</a></li>
-        <li><a href="partner.html">Mitra</a></li>
-        <li><a href="activity.html">Kegiatan</a>
-            <ul>
-                <li><a href="penanamankakao.html">Penanaman Kakao</a></li>
-                <li><a href="pengolahankakao.html">Pengolahan Kakao</a></li>
-            </ul>
-        </li>
-        <li><a href="healthy.html">Kesehatan Tanaman</a>
-            <ul>
-                <li><a href="healthy.html">Cara penanaman kopi</a></li>
-                <li><a href="tanamkakao.html">Pengolahan Kakao</a></li>
-                <li><a href="tanamtembakau.html">Pengolahan Tembakau</a></li>
-                <li><a href="tanamedamame.html">Pengolahan Edamame</a></li>
-            </ul>
-        <li><a href="sejarah.html">Sejarah</a></li>
         <li><a href="beranda.html">Beranda</a></li>
-        <li<form>
-  		<input class="search" type="text" placeholder="Cari..." required>	
- 		<input class="button" type="button" value="Cari">		
-		</form>></li>
-        <li><a href="beranda.html">NAWA FARM</a></li>
+        
+        <li>
+        <input class="search" type="text" placeholder="Cari..." required>   
+        <input class="button" type="button" value="Cari"> 
+        </li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>   
+        <li><a href="beranda.html">NAWA FARM</a></li>                            
     </ul>
-	</nav>
+    </nav>
 </head>
 <body>
 <div class="container">
-<h1>KEGIATAN NAWA FARM</h1>
-<picture>
-<img src="olah edamame.jpg" alt="olah edamame" align="center"/><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<figcaption>pengolahan edamame</figcaption><br>
-<img src="petik tembakau.jpg" align="center"/><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<figcaption>pemetikan tembakau</figcaption><br>
-<img src="panen kopi.jpg" align="center"/><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<figcaption>pemanenan kopi</figcaption>
-</picture>  
+<h1>WELCOME TO NAWA FARM <br>
+</div>
+<div id="row3">
+      <div class="image1">
+          <img src="buibu.jpg">
+      </div>
+      <p>Edamame adalah kacang kedelai yang masih berada di dalam polongnya. Camilan tradisional dari Jepang ini kini banyak diminati oleh masyarakat di seluruh dunia. Bukan hanya karena rasanya yang nikmat, tapi juga karena ada banyak manfaat edamame bagi kesehatan tubuh.<br><br><br></p>
+
+  <!-- </div>
+
+    <div class="kol-3 kol-m-6 judul-layanan-l">
+        <p>Tembakau adalah produk pertanian semusim yang bukan termasuk komoditas pangan, melainkan komoditas perkebunan. Produk ini dikonsumsi bukan untuk makanan tetapi sebagai pengisi waktu luang atau "hiburan", yaitu sebagai bahan baku rokok dan cerutu. Tembakau juga dapat dikunyah. Kandungan metabolit sekunder yang kaya juga membuatnya bermanfaat sebagai pestisida dan bahan baku obat.</p>
+    </div> -->
     <form id="formKomentar" method="POST" action="healthy.html">
     <div>
-     <textarea name="komentar" rows="10" placeholder="Komentar"></textarea>
+     <textarea name="komentar" rows="4" cols="40" placeholder="Komentar"></textarea>
     </div>
  
     <div>
@@ -59,8 +102,9 @@
       </script>
       <button><a href="penanamankakao.html" onclick="simsalabim()">Tambahkan komentar</a></button>
     </div>
+    </div> 
   </form>
-	<div id="footer">
+	<div id="footer1">
 		<h5>nawafarm@gmail.com <br>
 		@nawafarm<br>
         (0331)757130<br>
